@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Lesson6</string>
+    <string name="menu">MENU</string>
+
+    <string name="completed">Completed</string>
+    <string name="incompleted">Incompeleted</string>
+</resources>

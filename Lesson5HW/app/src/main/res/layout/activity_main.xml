@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.test.lesson5hw.MainActivity">
+
+    <Button
+        android:id="@+id/l5_1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="52dp"
+        android:text="lesson 7-1"
+        app:layout_constraintBottom_toTopOf="@+id/l5_2"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/l5_2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="lesson 7-3"
+        app:layout_constraintBottom_toTopOf="@+id/l5_3"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/l5_3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="lesson 8-3"
+        app:layout_constraintBottom_toTopOf="@+id/l5_4"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/l5_4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="188dp"
+        android:text="lesson 7-2"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+</android.support.constraint.ConstraintLayout>
